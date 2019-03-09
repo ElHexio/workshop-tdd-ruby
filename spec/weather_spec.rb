@@ -16,6 +16,6 @@ RSpec.describe MetaWeatherForecaster do
   end
 
   it 'should fail for unknown city' do
-    expect { @forecaster.forecast("dummy_city") }.to raise_error
+    expect { @forecaster.forecast('dummy_city') }.to raise_error
   end
 end
