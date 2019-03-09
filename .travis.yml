@@ -6,7 +6,6 @@ rvm:
   - 2.5.1
 before_install:
   - gem install bundler -v 2.0.1
-  - gem install rubocop
 script:
   - bundle exec rake spec
   - bundle exec rake rubocop

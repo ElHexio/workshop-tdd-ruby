@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
+require 'cgi'
+
 class MetaWeatherHttpClientMock
   def get(url)
     if url.include?('search')
-      city_response
+      city_response(url)
     else
       weather_response
     end
@@ -11,8 +13,10 @@ class MetaWeatherHttpClientMock
 
   private
 
-  def city_response
-    file_content("#{__dir__}/response/meta_weather/berlin.json")
+  def city_response(url)
+    query_params = CGI.parse(URI(url).query)
+    city = query_params['query'].first
+    file_content("#{__dir__}/response/meta_weather/#{city}.json")
   end
 
   def weather_response
