@@ -1,21 +1,22 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "bundler/setup"
-require "forecaster"
-require "optparse"
+require 'bundler/setup'
+require 'forecaster'
+require 'optparse'
 
 city = ARGV[-1]
 options_parser = nil
 
 OptionParser.new do |op|
-  op.banner = "Usage: weather city"
+  op.banner = 'Usage: weather city'
 
-  op.on("-h", "--help", "print this help message.") do |h|
+  op.on('-h', '--help', 'print this help message.') do |_h|
     puts op
     exit
   end
 
-  op.on("--version", "show weather version") do |ver|
+  op.on('--version', 'show weather version') do |_ver|
     puts "version: #{Weather::VERSION}"
     exit
   end
@@ -30,4 +31,4 @@ end
 
 forecast = Forecaster.forecast(city)
 
-puts "The temperature in the '#{forecast.city}' is: #{forecast.temperature}"
+puts "The temperature in the '#{forecast[:city]}' is: #{forecast[:temperature]}"
