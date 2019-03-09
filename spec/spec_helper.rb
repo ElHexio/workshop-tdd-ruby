@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "workshop_tdd"
+require "forecaster"
 require "rspec-power_assert"
 
 RSpec.configure do |config|

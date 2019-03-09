@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece1333a-40d6-4ff4-b53c-2b0a4aec9e6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/workshop_tdd/meta_weather_forecaster.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weather.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rspec" beforeDir="false" afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/weather" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weather" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/workshop_tdd.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/workshop_tdd.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/workshop_tdd/forecaster.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/weather_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/weather_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop_tdd.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/workshop_tdd.gemspec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/weather">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="73" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+            <state relative-caret-position="450">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/workshop_tdd/meta_weather_forecaster.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/workshop_tdd.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -66,7 +64,13 @@
       <find>Sch</find>
       <find>RSpec</find>
       <find>[{&quot;title&quot;:&quot;Berlin&quot;,&quot;location_type&quot;:&quot;City&quot;,&quot;woeid&quot;:638242,&quot;latt_long&quot;:&quot;52.516071,13.376980&quot;}]</find>
+      <find>workshop_tdd</find>
+      <find>WorkshopTdd</find>
     </findStrings>
+    <replaceStrings>
+      <replace>weather</replace>
+      <replace>Weather</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -95,8 +99,8 @@
         <option value="$PROJECT_DIR$/spec/weather_spec.rb" />
         <option value="$PROJECT_DIR$/spec/fixtures/meta_weather_http_client_mock.rb" />
         <option value="$PROJECT_DIR$/lib/workshop_tdd/meta_weather_forecaster.rb" />
-        <option value="$PROJECT_DIR$/lib/workshop_tdd.rb" />
         <option value="$PROJECT_DIR$/bin/weather" />
+        <option value="$PROJECT_DIR$/lib/workshop_tdd.rb" />
       </list>
     </option>
   </component>
@@ -202,16 +206,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552068188862</updated>
-      <workItem from="1552068189967" duration="10234000" />
+      <workItem from="1552068189967" duration="10481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10234000" />
+    <option name="totallyTimeSpent" value="10481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -360,6 +363,13 @@
     <entry file="file://$PROJECT_DIR$/bin/setup">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/workshop_tdd.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/console">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -367,24 +377,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/workshop_tdd.rb">
+    <entry file="file://$PROJECT_DIR$/bin/weather">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="450">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/workshop_tdd/meta_weather_forecaster.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/weather">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="73" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    workshop_Tdd (0.1.0)
+    weather (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -34,7 +34,7 @@ DEPENDENCIES
   rake (~> 10.0)
   rspec (~> 3.0)
   rspec-power_assert
-  workshop_Tdd!
+  weather!
 
 BUNDLED WITH
    2.0.1

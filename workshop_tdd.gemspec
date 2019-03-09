@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "workshop_tdd/version"
+require "weather/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "workshop_Tdd"
-  spec.version       = WorkshopTdd::VERSION
+  spec.name          = "weather"
+  spec.version       = Forecaster::VERSION
   spec.authors       = ["Alexander Scherbachenko"]
   spec.email         = ["misteralejadro777@gmail.com"]
 

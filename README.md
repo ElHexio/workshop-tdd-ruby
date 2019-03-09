@@ -1,11 +1,11 @@
-# WorkshopTdd
+# Weather
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'workshop_tdd'
+gem 'weather'
 ```
 
 And then execute:
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install workshop_tdd
+    $ gem install weather
 
 ## Usage
 
@@ -28,4 +28,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/workshop_tdd_ruby.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/weather_ruby.

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "workshop_tdd"
+require "forecaster"
 require "optparse"
 
 city = ARGV[-1]
@@ -16,7 +16,7 @@ OptionParser.new do |op|
   end
 
   op.on("--version", "show weather version") do |ver|
-    puts "version: #{WorkshopTDD::VERSION}"
+    puts "version: #{Weather::VERSION}"
     exit
   end
 
@@ -28,6 +28,6 @@ unless city
   exit
 end
 
-forecast = WorkshopTdd.forecast(city)
+forecast = Forecaster.forecast(city)
 
 puts "The temperature in the '#{forecast.city}' is: #{forecast.temperature}"
