@@ -1,5 +1,7 @@
 # Weather
 
+[![Build Status](https://travis-ci.org/ElHexio/workshop-tdd-ruby.svg?branch=master)](https://travis-ci.org/ElHexio/workshop-tdd-ruby)
+
 ## Installation
 
 Add this line to your application's Gemfile:
