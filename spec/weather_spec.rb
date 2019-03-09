@@ -11,7 +11,7 @@ RSpec.describe MetaWeatherForecaster do
   it 'should return weather' do
     weather_forecast = @forecaster.forecast('berlin')
 
-    expected = { city: 'Berlin', temperature: 8.9 }
+    expected = { city: 'berlin', temperature: 8.9 }
     assert { weather_forecast == expected }
   end
 
