@@ -1,0 +1,33 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "workshop_tdd"
+require "optparse"
+
+city = ARGV[-1]
+options_parser = nil
+
+OptionParser.new do |op|
+  op.banner = "Usage: weather city"
+
+  op.on("-h", "--help", "print this help message.") do |h|
+    puts op
+    exit
+  end
+
+  op.on("--version", "show weather version") do |ver|
+    puts "version: #{WorkshopTDD::VERSION}"
+    exit
+  end
+
+  options_parser = op
+end.parse!
+
+unless city
+  puts options_parser
+  exit
+end
+
+forecast = WorkshopTdd.forecast(city)
+
+puts "The temperature in the '#{forecast.city}' is: #{forecast.temperature}"

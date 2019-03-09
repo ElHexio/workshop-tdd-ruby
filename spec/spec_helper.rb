@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "workshop_tdd"
+require "rspec-power_assert"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -11,4 +12,7 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  RSpec::PowerAssert.example_assertion_alias :assert
+  RSpec::PowerAssert.example_group_assertion_alias :assert
 end
